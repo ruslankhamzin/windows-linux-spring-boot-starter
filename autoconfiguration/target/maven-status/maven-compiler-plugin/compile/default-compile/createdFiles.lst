@@ -1,0 +1,7 @@
+com\example\CustomStarterConfiguration.class
+com\example\UnknownOperatingSystemException.class
+com\example\AutoconfigurationApplication.class
+com\example\ConditionalOSCondition.class
+com\example\ConditionalOS.class
+com\example\CustomStarterLinux.class
+com\example\CustomStarterWindows.class
