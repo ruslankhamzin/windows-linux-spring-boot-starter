@@ -3,12 +3,12 @@ package com.autoconfiguration.configuration;
 import com.autoconfiguration.conditional.ConditionalOS;
 import com.autoconfiguration.service.CustomStarterLinuxService;
 import com.autoconfiguration.service.CustomStarterWindowsService;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 
-@Configuration
+@AutoConfiguration
 @EnableScheduling
 public class CustomStarterConfiguration {
 
